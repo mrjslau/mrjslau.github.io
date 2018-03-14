@@ -1,0 +1,71 @@
+body{
+    font: 13px/1.5 Arial, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+/* Global ----------------------- */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.clearer{
+    height: 0;
+    clear: both;
+  }
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header ----------------------- */
+header{
+    padding: 0 0 20px 0;
+}
+
+.cv-pic-box{
+    float: left;
+    padding: 30px 5px 30px 10px;
+}
+
+.header-top{
+    background-color: #1c384d;
+    color: #ffffff;
+    padding: 10px 20px 5px 10px;
+}
+
+.name-box{
+    float: right;
+}
+
+.name-box > ul > li{
+    float: left;
+    display: inline;
+}
+
+.name-box h1{
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contacts-box > ul > li{
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.contacts-box a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacts-box a:hover{
+    color: #555555;
+    text-decoration: none;
+}
+
+/* Main  ------------------------ */
