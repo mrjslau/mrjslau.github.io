@@ -2,7 +2,8 @@ body{
     font: 13px/1.5 Arial, Helvetica;
     padding: 0;
     margin: 0;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    color: #1c384d;
 }
 
 /* Global ----------------------- */
@@ -21,6 +22,17 @@ ul{
     margin: 0;
 }
 
+.year{
+    color: #ef250f;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.inst-name{
+    font-weight: bold;
+    font-size: 14px;
+}
+
 /* Header ----------------------- */
 header{
     padding: 0 0 20px 0;
@@ -34,20 +46,39 @@ header{
 .header-top{
     background-color: #1c384d;
     color: #ffffff;
-    padding: 10px 20px 5px 10px;
+    padding: 10px 20px 5px 20px;
 }
 
 .name-box{
+    margin-left: 150px;
     border-bottom: 1px solid #ffffff;
+    min-width: 600px;
+    max-width: 800px;
 }
 
 .name-box > ul > li{
-    display: inline;
+    display:inline-block;
+    vertical-align:middle;
     margin-right: 10px;
 }
 
+.name-box > ul > li:last-child{
+    float:right;
+}
+
+.name-box .name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .name-box .profession{
-    
+    font-size: 18px;
+}
+
+.contacts-box{
+    margin-left: 150px;
+    min-width: 600px;
+    max-width: 800px;
 }
 
 .contacts-box > ul > li{
@@ -65,8 +96,45 @@ header{
     text-decoration: none;
 }
 
+.header-bottom{
+    padding: 0 20px 5px 20px;
+}
+
+.header-bottom .description{
+    margin-left: 150px;
+    min-width: 600px;
+    max-width: 800px;
+    text-align: justify;
+}
+
 .header-bottom b{
     color: #ef250f;
 }
 
 /* Main  ------------------------ */
+main{
+    min-width: 500px;
+    max-width: 950px;
+    margin-left: 20px;
+}
+
+.sec-header{
+    color: #1c384d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section{
+    background-color: darkkhaki;
+}
+
+.education .uni-descr{
+    border-bottom: 1px solid #1c384d;
+}
+
+/*.education .uni, .education .uni-descr{
+    float: left;
+}
+
+.experience{
+}*/
